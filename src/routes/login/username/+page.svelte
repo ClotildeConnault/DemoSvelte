@@ -58,7 +58,7 @@
 </script>
 
 <AuthCheck>
-	{#if $userData.username}
+	{#if $userData?.username}
 		<p class="">
 			Your username is <span class="">@{$userData.username}</span>
 		</p>
